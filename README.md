@@ -1,3 +1,11 @@
+# This Is Not The Repo You Were Looking For
+
+While this repo contains the latest official LANL release of Pavilion, 
+it is only updated on an extremely rare basis. 
+
+For the latest, most up-to-date release see:
+https://github.com/hpc/pavilion2
+
 # Pavilion
 
 Pavilion is a Python 3 (3.4+) based framework for running and analyzing 
@@ -7,20 +15,3 @@ The vast majority of the system is defined via plugins,, giving users the
 ability to extend and modify Pavilion's operation to suit their needs. 
 Plugin components include those for gathering system data, adding 
 additional schedulers, parsing test results, and more.
-
-## Project goals:
- - Robust testing in postDST, automated, and acceptance testing
- (system validation) scenarios.
- - End-to-end status tracking for all tests.
- - Simple, powerful test configuration language.
- - System agnostic test configs.
-   - Hide common platform and environment idiosyncrasies from tests.
-   - System specific defaults.
- - Eliminate unnecessary build repetition.
- - Extreme extensibility (plugins everywhere). 
-
-## Documentation 
-The [general documentation](https://pavilion2.readthedocs.io/en/latest/) is 
-available via readthedocs, along with documentation for the Pavilion code 
-itself.
-
